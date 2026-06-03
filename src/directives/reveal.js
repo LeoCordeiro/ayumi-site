@@ -3,8 +3,8 @@ function setupReveal(el, options = {}) {
     delay = 0,
     stagger = false,
     interval = 100,
-    threshold = 0.12,
-    rootMargin = '0px 0px -50px 0px',
+    threshold = 0.08,
+    rootMargin = '0px 0px -20px 0px',
   } = options || {}
 
   if (stagger) {
