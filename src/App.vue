@@ -50,9 +50,10 @@ import Footer from '@/components/Footer.vue'
 html, body {
   background: #080808;
   color: #fff;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
   overflow-x: hidden;
 }
 
