@@ -9,7 +9,7 @@
         <div class="col-span-2 sm:col-span-1">
           <img :src="require('@/assets/logoheader.png')" style="height:48px;width:auto;" alt="Ayumi Representações" class="mb-5" />
           <p class="text-sm text-neutral-500 leading-relaxed mb-4 max-w-[220px]">
-            Conectando fabricantes aos compradores certos em São Paulo.
+            Conectando fornecedores com histórico a compradores em todo o Brasil.
           </p>
           <div class="flex items-center gap-2">
             <span class="h-1.5 w-1.5 rounded-full bg-copper-400 animate-pulse"></span>

@@ -40,7 +40,7 @@
 
           <!-- Text column -->
           <div>
-            <p style="font-size:15px;color:#a3a3a3;line-height:1.7;margin-bottom:18px">Por isso criamos a Ayumi Representações. Temos uma rede de compradores ativos em São Paulo — lojistas, distribuidoras, redes de varejo — prontos para fechar pedido.</p>
+            <p style="font-size:15px;color:#a3a3a3;line-height:1.7;margin-bottom:18px">Por isso criamos a Ayumi Representações. Trabalhamos com fornecedores que têm histórico e portfólio estruturado, conectando-os a compradores ativos em todo o Brasil.</p>
             <p style="font-size:14px;color:#737373;line-height:1.7;margin-bottom:28px">Cada representação é formalizada com contrato pela Lei 4.886/65, com proteção jurídica completa para o fabricante e para a Ayumi.</p>
             <router-link to="/solicitar" class="btn-copper">
               Fale com a Aiumy
@@ -89,11 +89,11 @@ const miniStats = [
 ]
 const diffs = [
   { title:'Zero custo fixo', desc:'A marca não paga nada antecipado. Comissão só sobre vendas fechadas.', icon:'<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>' },
-  { title:'Rede de compradores', desc:'Acesso a lojistas, distribuidoras e redes com poder de compra real em SP.', icon:'<path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>' },
+  { title:'Rede de compradores', desc:'Acesso a lojistas, distribuidoras e redes com poder de compra real em todo o Brasil.', icon:'<path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>' },
   { title:'Só ganhamos quando você vende', desc:'Sem venda, sem comissão. Nosso resultado depende diretamente do seu.', icon:'<polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>' },
   { title:'Contrato formalizado', desc:'Toda representação segue Lei 4.886/65 com proteção jurídica completa.', icon:'<path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>' },
   { title:'Atendimento pessoal', desc:'Gestão direta, sem burocracia. Comunicação constante com responsável dedicada.', icon:'<path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>' },
-  { title:'Cobertura estratégica', desc:'Capital, Grande SP e interior — um dos maiores mercados do Brasil.', icon:'<circle cx="12" cy="11" r="3"/><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>' },
+  { title:'Atuação nacional', desc:'De Norte a Sul — conectamos fabricantes a compradores em todo o Brasil.', icon:'<circle cx="12" cy="11" r="3"/><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>' },
 ]
 </script>
 

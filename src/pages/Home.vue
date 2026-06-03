@@ -13,14 +13,14 @@
           <h1 class="hero-h1">
             Representamos sua marca<br />
             direto para os compradores<br />
-            <span class="hero-h1-grad">de São Paulo</span>
+            <span class="hero-h1-grad">em todo o Brasil</span>
           </h1>
         </div>
 
         <!-- Subtítulo -->
         <div class="hero-anim hero-anim-3" style="text-align:center;margin-top:1.5rem">
           <p class="hero-sub">
-            Trabalhamos com fabricantes e indústrias para abrir canais de venda em São Paulo.
+            Trabalhamos com fabricantes e indústrias para abrir canais de venda em todo o Brasil.
             <strong style="color:#e2e2e2;font-weight:600">Sem mensalidade.</strong>
             Você paga só quando a gente fecha uma venda.
           </p>
@@ -120,8 +120,8 @@
               </div>
             </div>
             <div style="flex:1">
-              <p style="font-size:1.5rem;font-weight:700;letter-spacing:-0.02em;color:#fff">Cobertura total em SP</p>
-              <p style="font-size:13px;color:#737373;margin-top:4px;margin-bottom:12px">Capital, Grande São Paulo e Interior</p>
+              <p style="font-size:1.5rem;font-weight:700;letter-spacing:-0.02em;color:#fff">Cobertura nacional</p>
+              <p style="font-size:13px;color:#737373;margin-top:4px;margin-bottom:12px">De Norte a Sul do Brasil</p>
               <div style="display:flex;flex-wrap:wrap;gap:6px">
                 <span v-for="tag in coverageTags" :key="tag" class="tag-copper">{{ tag }}</span>
               </div>
@@ -207,7 +207,7 @@
           <div class="cta-content">
             <h2 class="cta-title">
               Pronto para vender mais<br />
-              <span style="color:#C9956C">em São Paulo?</span>
+              <span style="color:#C9956C">em todo o Brasil?</span>
             </h2>
             <p class="cta-desc">
               Sem taxa fixa. Você paga comissão só quando a gente fecha a venda. Contrato pela Lei 4.886/65.
@@ -230,7 +230,7 @@
 </template>
 
 <script setup>
-const trusts = ['Sem mensalidade ou taxa fixa', 'Contrato pela Lei 4.886/65', 'Compradores ativos em SP e interior']
+const trusts = ['Sem mensalidade ou taxa fixa', 'Contrato pela Lei 4.886/65', 'Fornecedores com histórico · atuação nacional']
 
 const segments = [
   { name: 'Moda', range: '8–12%', width: '90%' },
@@ -241,10 +241,10 @@ const segments = [
 ]
 
 const legalItems = ['Proteção jurídica completa', 'Assinatura eletrônica', 'Comissões garantidas em contrato']
-const coverageTags = ['SP Capital', 'Grande SP', 'Interior', 'Brás / Bom Retiro']
+const coverageTags = ['Sudeste', 'Sul', 'Nordeste', 'Centro-Oeste']
 
 const stats = [
-  { value: 'SP', label: 'Cobertura estratégica' },
+  { value: 'BR', label: 'Cobertura nacional' },
   { value: '5', label: 'Segmentos ativos' },
   { value: '24h', label: 'Primeira resposta' },
   { value: '0%', label: 'Custo antecipado' },
@@ -253,13 +253,13 @@ const stats = [
 const segmentCards = [
   {
     title: 'Moda e Vestuário', range: '8–12%',
-    desc: 'Fabricantes do Brás, Bom Retiro e região para lojistas do interior e outros estados.',
-    items: ['Camisetas, blusas e coleções', 'Calças, bermudas e vestidos', 'Lojistas SP capital e interior'],
+    desc: 'Fabricantes com histórico para lojistas, multimarcas e distribuidoras em todo o país.',
+    items: ['Camisetas, blusas e coleções', 'Calças, bermudas e vestidos', 'Lojistas e multimarcas no Brasil'],
     icon: '<path d="M20.38 3.46L16 2a4 4 0 01-8 0L3.62 3.46a2 2 0 00-1.34 2.23l.58 3.57a1 1 0 00.99.86H6v10c0 1.1.9 2 2 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.86l.58-3.57a2 2 0 00-1.34-2.23z"/>',
   },
   {
     title: 'Cosméticos e Beleza', range: '5–8%',
-    desc: 'Marcas regionais para salões, farmácias e distribuidoras de beleza em todo São Paulo.',
+    desc: 'Marcas com histórico para salões, farmácias e distribuidoras de beleza em todo o Brasil.',
     items: ['Produtos de beleza e higiene', 'Maquiagem e tratamentos', 'Salões, farmácias, distribuidoras'],
     icon: '<path d="M12 2a5 5 0 015 5v3H7V7a5 5 0 015-5z"/><path d="M7 10v9a2 2 0 002 2h6a2 2 0 002-2v-9"/>',
   },

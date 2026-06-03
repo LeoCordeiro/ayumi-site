@@ -62,7 +62,7 @@
 const terms = [
   {
     title: 'Sobre o serviço',
-    text: 'A Ayumi Representações opera sob a Lei 4.886/65, conectando fabricantes e indústrias a compradores qualificados em São Paulo e região.',
+    text: 'A Ayumi Representações opera sob a Lei 4.886/65, conectando fabricantes e fornecedores com histórico a compradores em todo o Brasil.',
   },
   {
     title: 'Escopo da representação',
